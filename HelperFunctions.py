@@ -35,7 +35,7 @@ def cropImage(image):
 def getVideoFormat(text):
     """
     getVideoFormat takes the text from the bottom of the videos 
-        and puts it the following format: "YYYY-MM-DD_hh:mm:ss_71F.mp4".  
+        and puts it the following format: "YYYY-MM-DD_hh:mm:ss_XXF.mp4".  
         For example, example video 02090078 Mac_Nem.mp4 is renamed to "2019-02-09_08:20:01_71F.mp4"
 
     param text: string; extracted from the bottom of the video using PyTesseract.
