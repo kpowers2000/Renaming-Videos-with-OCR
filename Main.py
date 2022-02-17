@@ -6,5 +6,4 @@ if __name__=="__main__":
     #clear() ### 'clear()' will delete all video copies previously created by this program.  First asks for confirmation. ###
     nameOfVideoFolder = "place_videos_here"
     #updateVideoNames(nameOfVideoFolder)
-    nameOfVideoFolder = "place_videos_here"
     createTemperatureCSV(nameOfVideoFolder)
