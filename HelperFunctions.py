@@ -108,7 +108,6 @@ def createTemperatureCSV(nameOfVideoFolder):
         # using csv.writer method from CSV package
     cols = ["Filename", "Temperature"]
     with open('temp.csv', 'w') as f:
-        print(rows)
         write = csv.writer(f)
         write.writerow(cols)
         write.writerows(rows)
