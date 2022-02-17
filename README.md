@@ -8,8 +8,6 @@ This project was created in partnership with Doris Duke Professor of Conservatio
 ## Modules 
 #### Main.py
 Run this module to execute the program.  A clear() function is included (initially commented out).  Clear deletes all files in output and images_placed_here folders. It first asks for confirmation before erasure.  
-Update 2/17/21: Added createTemperatureCSV(nameOfVideoFolder).  This function extracts the temperature from the videos and creates a CSV called temp.csv.
-
 #### UpdateVideoNames
 Contains updateVideoNames(nameOfVideoFolder) and clear().  
 
